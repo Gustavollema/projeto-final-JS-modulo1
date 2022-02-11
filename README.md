@@ -13,7 +13,8 @@
 <body>
   
   <h1> Vaga de Portugal </h1>
-  <p> Neste mini jogo de escolhas, você vai ser convidado para uma vaga de Desenvolvedor Full-Stack em uma ótimo empresa localizada em Lisboa, Portugal. O melhor de tudo isso é que você já tem a vaga, o visto, moradia e os primeiros meses garantidos na cidade. A questão é que você só vai receber os pagamentos quando chegar lá e começar a atuar. Portanto, você precisa juntar R$ 5.000,00 em 20 dias para arcar com todos os custos da viagem, se esse prazo acabar, você infelizmente não poderá mais ir e a vaga será passada para outro. A questão é, você vai tentar conseguir a grana ou vai desistir?</p>
+  <p> <strong> Neste mini jogo de escolhas, você vai ser convidado para uma vaga de Desenvolvedor Full-Stack em uma ótimo empresa localizada em Lisboa, Portugal. O melhor de tudo isso é que você já tem a vaga, o visto, moradia e os primeiros meses garantidos na cidade. A questão é que você só vai receber os pagamentos quando chegar lá e começar a atuar. Portanto, você precisa juntar R$ 5.000,00 em 20 dias para arcar com todos os custos da viagem, se esse prazo acabar, você infelizmente não poderá mais ir e a vaga será passada para outro. A questão é, você vai tentar conseguir a grana ou vai desistir?</strong></p>
+  <p></p>
   
   <h2> Tecnologias utilizadas: </h2>
   <div>
