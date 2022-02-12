@@ -108,7 +108,7 @@ if (escolha == 1) {
 } else {
             status.dinheiro = status.dinheiro + 100
             restante = status.valor - status.dinheiro
-            console.log(`Você foi vender água na rua e conseguiu vender TUDO! Agora tem ${status.dinheiro} e faltam ${status.dinheiro} para bater sua meta`)
+            console.log(`Você foi vender água na rua e conseguiu vender TUDO! Agora tem ${status.dinheiro} e faltam ${restante} para bater sua meta`)
         } 
 } else if (escolha1 == 4) {
         var garcon = Math.floor(Math.random() * 10);
