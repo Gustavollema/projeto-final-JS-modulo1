@@ -3,6 +3,7 @@ const prompt = require('prompt-sync')()
 console.clear
 console.log()
 
+
 /// VARIAVEIS BÁSICAS & OBJETOS \\\
 var status = {
     dinheiro: 50,
@@ -30,14 +31,23 @@ function diaadia() {
 }
 
 // INICIO DO GAME 
-
+console.log()
+console.log()
+do {
 let nome = prompt('Qual é o seu nome? ')
 console.log()
 console.log(`${nome}, você fez uma entrevista para uma vaga de emprego para Desenvolvedor Web Full-Stack na cidade de Lisboa, Portugal e passou. Porém você 
 precisa de ${status.valor} para arcar com os custos da viagem e atualmente tem ${status.dinheiro} em sua conta bancária.`)
 console.log()
-let escolha = +prompt('Você vai aceitar e tentar conseguir a grana [1], ou vai desistir da vaga? [2] - ')
+var escolha = +prompt('Você vai aceitar e tentar conseguir a grana [1], ou vai desistir da vaga? [2] - ')
 console.log()
+while (escolha != 1) {
+    console.log('Você vai desistir mesmo? É uma boa oportunidade.')
+    var escolha = +prompt('Você vai aceitar e tentar conseguir a grana [1], ou vai desistir da vaga? [2] ')
+    if (escolha == 2) {
+        break;
+    } 
+}
 
 if (escolha == 1) {
     console.log(`Então você vai precisar conseguir ${status.valor} até o dia ${status.prazoMax}, para isso você terá que escolher: `)
@@ -133,13 +143,7 @@ if (escolha == 1) {
     else if (status.dinheiro < status.valor) {
         console.log('Infelizmente o prazo passou e você não conseguiu a vaga, podia ter feito melhor, não?!')
     }
-
-/// DESISTENCIA DA VAGA
-
-} else if (escolha == 2) {
-
-    console.log('-----')
     console.log()
-    console.log(`${nome}, você está desistindo de um grande sonho, tem certeza disso? Poxa, que pena. Então é isso, um dia surge outra oportunidade.`)
-    console.log()}
+    var novoJogo = prompt('Quer jogar novamente?').toUpperCase();
 
+} } while (novoJogo == 'SIM')
